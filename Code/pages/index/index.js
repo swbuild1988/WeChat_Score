@@ -15,6 +15,13 @@ Page({
       url: '../logs/logs'
     })
   },
+  load: function (e) {
+    if (!app.globalData.userInfo) return;
+    
+    wx.navigateTo({
+      url: '../work/work',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
@@ -49,11 +56,6 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
-    })
-  },
-  load: function(e){
-    this.setData({
-      btn_load: 'haha'
     })
   }
 })

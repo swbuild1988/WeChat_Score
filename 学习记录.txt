@@ -1,0 +1,6 @@
+2018/02/01
+button绑定的事件bindtap,微信的小程序IDE没有判断关键字有没有问题的功能
+
+2018/02/02
+1.页面跳转 wx.navigateTo
+2.全局变量：放在app.js中，在页面的js中，我们可以用var app = getApp()来获取app.js中的变量

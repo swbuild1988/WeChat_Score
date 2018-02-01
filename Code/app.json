@@ -1,12 +1,13 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/work/work"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fcf",
     "navigationBarTitleText": "斗地主计分器",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
